@@ -7,6 +7,8 @@ Códigos que estoy utilizando para mi investigación en la tesis, focalizada en 
 En el caso de este proyecto, se utilizan datos de encuentas públicas para investigar si algún modelo logra entender los comportamientos y opiniones de los chilenos.
 
 Los modelos utilizados en la investigación son: ChatGPT-3.5-turbo, ChatGPT-4, Llama-7b-chat-hf, Llama-13b-chat-hf y Mistral.
+
+Aquí presento solo algunos de los códigos más importantes.
 ## Elec_pres_querys.py
 En este archivo se pueden ejecutar distintos modelos en distintas variantes, y también con distintas variantes de prompts. Se crea un objeto con todos los parámetros corrspondientes que se envían luego a requester_script.py. Algunas de las variables son: Llama7b, Llama13b, Mistral; modelo en inglés o español; con o sin finetuning; con Zero-Shot Learning o Fewshot Learning, entre otras.
 
